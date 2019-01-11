@@ -1,18 +1,19 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-const name = 'Gerardo Gallegos'
+const TarjetaFruta = () => (
+  <div>
+    <h3>Titulo</h3>
+    <hr/>
+    <p>Descripcion ....</p>
+  </div>
+)
 
-const user1 = {
-  name: 'Gerardo Gallegos',
-  age: 28,
-  country: 'Mexico'
-}
+const App = () => (
+  <div>
+    <TarjetaFruta />
+    <TarjetaFruta></TarjetaFruta>
+  </div>
+)
 
-function getInfo (user) {
-  return `Hola mi nombre es ${user.name} y soy originario de ${user.country}`
-}
-
-const App = <h1>{ getInfo(user1) }</h1>
-
-ReactDOM.render(App, document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById('root'))
