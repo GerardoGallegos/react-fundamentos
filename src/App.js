@@ -1,11 +1,9 @@
 import React from 'react'
-import EstilosConClase from './componentes/EstilosConClase'
+import Eventos from './componentes/Eventos'
 
 const App = () => (
   <div>
-    <EstilosConClase name={'Sandia'} price={5.00} />
-    <EstilosConClase name={'Naranja'} price={1.50} />
-    <EstilosConClase name='Kiwi' price={3.30} />
+    <Eventos />
   </div>
 )
 
