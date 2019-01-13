@@ -1,0 +1,12 @@
+.TarjetaFruta {
+  background: #FFF;
+  border: 1px solid green;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+.TarjetaFruta-activa {
+  background: #000;
+  color: #FFF;
+}
