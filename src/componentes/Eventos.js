@@ -13,16 +13,20 @@ class Eventos extends React.Component {
     })
   }
 
+
+  manejador = (event) => {
+    event.preventDefault()
+  }
+
   render () {
     return (
       <div>
-        <input
-          onChange={this.input}
-          onCopy={this.input}
-          onPaste={this.input}
-        />
-        <h1>{ this.state.text }</h1>
-        <h2>{ this.state.evento }</h2>
+        <a
+          href="https://google.com"
+          onClick={this.manejador}
+          >
+           Google
+        </a>
       </div>
     )
   }
