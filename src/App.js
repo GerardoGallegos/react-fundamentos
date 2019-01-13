@@ -1,9 +1,9 @@
 import React from 'react'
-import Eventos from './componentes/Eventos'
+import Iterando from './componentes/Iterando'
 
 const App = () => (
   <div>
-    <Eventos />
+    <Iterando />
   </div>
 )
 

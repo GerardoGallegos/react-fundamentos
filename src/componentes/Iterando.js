@@ -1,0 +1,27 @@
+import React from 'react'
+
+const users = [
+  { id: 1, name: 'Gerado Gallegos', country: 'Mexico'},
+  { id: 2, name: 'Leanne Graham', country: 'USA'},
+  { id: 3, name: 'Ervin Howell', country: 'Colombia'},
+  { id: 4, name: 'Rodrigo Fernandez', country: 'Peru'},
+  { id: 5, name: 'Alfredo Bauch', country: 'Guatemala'},
+  { id: 6, name: 'Fernanda Valencia', country: 'España'}
+]
+
+class Iterando extends React.Component {
+  render () {
+    return (
+      <div>
+        <h1>Iterando</h1>
+        <ul>
+          { users.map((user) => (
+              <li>{ user.name } - <strong>{ user.country}</strong></li>
+            )) }
+        </ul>
+      </div>
+    )
+  }
+}
+
+export default Iterando
