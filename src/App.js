@@ -1,9 +1,9 @@
 import React from 'react'
-import Iterando from './componentes/Iterando'
+import PeticionHTTP from './componentes/PeticionHTTP'
 
 const App = () => (
   <div>
-    <Iterando />
+    <PeticionHTTP />
   </div>
 )
 
