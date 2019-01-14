@@ -1,9 +1,10 @@
 import React from 'react'
-import PeticionHTTP from './componentes/PeticionHTTP'
+import PadreAHijo from './componentes/PadreAHijo'
+import './global.css'
 
 const App = () => (
   <div>
-    <PeticionHTTP />
+    <PadreAHijo />
   </div>
 )
 
