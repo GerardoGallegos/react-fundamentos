@@ -16,7 +16,9 @@ class Iterando extends React.Component {
         <h1>Iterando</h1>
         <ul>
           { users.map((user) => (
-              <li>{ user.name } - <strong>{ user.country}</strong></li>
+              <li key={user.id}>
+                { user.name }
+              </li>
             )) }
         </ul>
       </div>
