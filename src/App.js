@@ -1,10 +1,10 @@
 import React from 'react'
-import PadreAHijo from './componentes/PadreAHijo'
+import HijoAPadre from './componentes/HijoAPadre'
 import './global.css'
 
 const App = () => (
   <div>
-    <PadreAHijo />
+    <HijoAPadre />
   </div>
 )
 
