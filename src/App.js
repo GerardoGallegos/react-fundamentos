@@ -1,10 +1,10 @@
 import React from 'react'
-import HijoAPadre from './componentes/HijoAPadre'
+import CiclosVida from './componentes/CiclosVida'
 import './global.css'
 
 const App = () => (
   <div>
-    <HijoAPadre />
+    <CiclosVida />
   </div>
 )
 
